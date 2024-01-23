@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+    /* color: white; */
+}
+.navbar{
+    min-height: 800px;
+    
+
+    width: 100%;
+    background:linear-gradient(rgba(175, 13, 211, 0.333),rgba(4, 19, 148, 0.133),rgba(187, 32, 187, 0.2));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+.container{
+    min-height: 300px;
+    max-height: 600px;
+    width: 400px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.heading{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    margin-left: 20px;
+    font-family:Haettenschweiler,;
+}
+.heading >h1>i{
+    color: blueviolet;
+    background-color: white;
+}
+.input{
+    height: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 40px 40px  40px 40px;
+    border-right: none;
+    margin: 20px;
+}
+.input >input{
+    height: 100%;
+    width: 80%;
+    /* border-right: none; */
+    border-radius: 40px 0px  0px 40px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+.input >input:hover{
+    border: none;
+}
+.input>button{
+    height: 100%;
+    width: 40%;
+    background: linear-gradient(rgb(219, 62, 38),rgb(203, 123, 18),rgb(219, 62, 38));
+    border-radius: 40px;
+    border: 1px solid black;
+    font-size: 25px;
+    cursor: pointer;
+}
+.input >button:hover{
+    background:linear-gradient(orange,rgb(179, 75, 131),red);
+}
+
+.list{
+    height: auto;
+    width: 90%;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* border: 2px solid black; */
+    margin-left: 20px;
+}
+.list-item{
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+}
+.list-item >h3{
+    height: 100%;
+    width: 50%;
+    font-style: italic;
+    padding: 10px;
+}
+.list-item> .remove{
+    height: 100%;
+    width: 25%;
+    border-radius: 20px;
+    border-top: none;
+    border-bottom: none;
+    background:linear-gradient(orange,yellow ,red);
+}
+.list-item>.remove:hover{
+    background-color: blue;
+}
+.list-item> .completed{
+    height: 100%;
+    width: 25%;
+    border-radius: 20px;
+    border-right:none;
+    border-top: none;
+    border-bottom: none;
+    background:linear-gradient(rgb(99, 67, 9),yellow ,rgba(123, 31, 31, 0.721));
+}
+
+/* .morelist {
+    display: none;
+} */
